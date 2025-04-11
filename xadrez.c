@@ -1,32 +1,54 @@
 #include <stdio.h>
 
-// Desafio de Xadrez - MateCheck
-// Este código inicial serve como base para o desenvolvimento do sistema de movimentação das peças de xadrez.
-// O objetivo é utilizar estruturas de repetição e funções para determinar os limites de movimentação dentro do jogo.
-
 int main() {
-    // Nível Novato - Movimentação das Peças
-    // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
+   
+///Movimentação da torre. 
+ 
+    printf("Movimento da torre:\n");
+    for (int i = 0; i < 5; i++)
+    {
+        printf("Direita\n");
+    }
 
-    // Implementação de Movimentação do Bispo
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
+///Movimentação do bispo.
 
-    // Implementação de Movimentação da Torre
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.
+     printf("\nMovimento do bispo:\n");
+     int i = o;
+     while (i < 5)
+     {
+        printf("Cima, Direita\n");
+        i++;
+     }
 
-    // Implementação de Movimentação da Rainha
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
+///Movimentação da rainha.
 
-    // Nível Aventureiro - Movimentação do Cavalo
-    // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
-    // Um loop pode representar a movimentação horizontal e outro vertical.
+     printf("\nMovimento da rainha:\n");
+     int j = 0;
+     do
+     {
+        printf("Esquerda\n");
+        j++;
 
-    // Nível Mestre - Funções Recursivas e Loops Aninhados
-    // Sugestão: Substitua as movimentações das peças por funções recursivas.
-    // Exemplo: Crie uma função recursiva para o movimento do Bispo.
+     } while (j < 8);
 
-    // Sugestão: Implemente a movimentação do Cavalo utilizando loops com variáveis múltiplas e condições avançadas.
-    // Inclua o uso de continue e break dentro dos loops.
+///Movimentação do cavalo.
 
-    return 0;
+     printf("\nMovimento do cavalo:\n");
+     for (int k = 0; k < 2; k++)
+     {
+        printf("Baixo\n");
+     }
+     
+     int l = 0;
+     while (l < 1)
+     {
+        printf("Esquerda\n");
+        l++;
+     }
+
+return 0;
+
 }
+     
+     
+    
